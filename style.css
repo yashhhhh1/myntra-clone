@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-text-color:#3e4152;
+    --secondary-text-color: #94969f;
+    --padding-inline-section :10px;
+}
+
+body{
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color:var(--primary-text-color);
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-family:'Roboto' ,sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+a {
+    text-decoration:none;
+    display: inline-block;
+    font-size: 13px;
+    color: #282c3f;
+}
+.container{
+    
+    margin-inline:auto;
+    padding-inline: var(--padding-inline-section);
+    
+} 
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+/* nav bar */
+
+header{
+    position: fixed;
+    top: 0;
+    padding-top: 10px;
+    width: 100rem;
+    background-color:rgb(255, 255, 255); 
+}
+.company-logo img{
+    margin-left: 68px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 56px;
+}
+.nav-links  ul{
+    list-style: none;
+    line-height: 10px;
+    margin-left:60px ;
+    word-spacing: 20px;
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+.nav-links  li{
+    text-decoration:none;
+    display: inline-block;
+    font-size: 13px;
+    color: #282c3f;
+}
+sup{
+    color: red;
+    font-size: 9px;
+    
+}
+.searchbox {
+    margin: auto; 
+
+    
+}
+.searchbox i{
+    padding:4px 5px;
+}
+.searchbox input {
+    padding: 5px;
+    width: 40vh;
+    border:1px solid #fff;
+    border-radius: 0px 4px 4px 0px ;
+}
+.user-btn i {
+    padding: 10px;
+    margin-left: 20px;
+    font-size: small;
+}
+.user-btn label{
+    padding-left: 5px;
+    font-size: 10px;    
+}
+
+/* product */
+.product{
+    margin-top: 150px;
+}
+
+.product-text h2{
+    font-size: 30px;
+    margin: 50px 30px;
+    color: var(--primary-text-color);
+}
+.product-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* all id inside box img  width difind  */
+#deal-day .box img{
+    width: 168px;
+}
+#exclusive-brands .box img{
+    width:  168px;
+}
+#top-pick .box img{
+    width:  210px;
+}
+
+#categories-bag .box img{
+    width: 189px;
+}
+
+#deals-top-brands .box img{
+    width: 189px;
+}
+
+#brands-at-slashed-prices .box img{
+    width: 168px;
+}
+
+#best-buys .box img{
+    width: 175px;
+}
+#myntra-luxe .box img{
+    width:  189px;
+}
+#gifting-cards .box img{
+    width: 379px;
+}
+
+#summer-2022 .box img{
+    width: 168px;
+}
+
+#stylecast-hot-finds .box img{
+    width: 217px;
+}
+
+#trend-her .box img{
+    width: 189px;
+}
+
+#trend-him .box img{
+    width: 189px;
+}
+
+#kidswear .box img{
+    width: 215px;
+}
+
+#new-top-brands .box img{
+    width: 168px;
+}
+
+#smmer-season .box img{
+    width: 168px;
+}
+
+#newness-every .box img{
+    width: 350px;
+}
+
+#grooming .box img{
+    width: 378px;
+}
+#unmissable-season .box img{
+    width: 168px;
+}
+
+#colours-season .box img{
+    width: 350px;
+}
+
+#influencers-style .box img{
+    width: 215px;
+}
+
+#influencers-love .box img{
+    width: 168px;
+}
+
+#influencers-tranding .box img{
+    width: 168px;
+}
+
+
+footer{
+    margin:100px 304px;
+}
+span{
+    color: blue;
+}
+.title-text h4{
+ font-size: 12px;
+ margin-bottom: 5px;
+}
+.text-container  p{
+    font-size: 12px;
+    color: #696b79;
+}
+.text-container  h4{
+    font-size: 12px;
+    color: #696b79;
+    /* margin-left: 20px; */
+}
+.popuar-serches h5{
+    font-size: 15px;
+    color: #696b79;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.right-text p {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.left-text p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 80px;
+    margin-left:200px ;
+}
+.item-list{
+    margin-left: 25px;
+}
+.item-list ol {
+    font-size: 12px;
+    color: #696b79;
+}
